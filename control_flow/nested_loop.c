@@ -12,17 +12,34 @@
 // }
 
 
+// int main(){   // Nested For-Loop.
+//     int i,j;
+//     for(i=0;i<5;i++){
+        
+//         // if(i==2)break;
+
+//         for(j=0;j<5;j++){
+            
+//              if(j==2)break;
+
+//             printf("i=%d\tj=%d\n", i,j);
+//         }
+//     }
+// }
+
+
 int main(){   // Nested For-Loop.
     int i,j;
     for(i=0;i<5;i++){
-        
-        // if(i==2)break;
 
         for(j=0;j<5;j++){
             
-             if(j==2)break;
+            //  if(j==2) goto ab;
 
             printf("i=%d\tj=%d\n", i,j);
         }
     }
+    // ab:
+    // printf("Hi\n");
+    return 0;             
 }
