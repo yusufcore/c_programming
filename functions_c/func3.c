@@ -1,3 +1,5 @@
+// to find whether a number is even or odd.
+
 #include <stdio.h>
 void find(int n);  // func declaration.
 
