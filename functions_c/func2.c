@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-void drawline(void);  // function declaration.
+// void drawline(void);  // function declaration.
 
-int main(){    
-    drawline();      // function call.
-}
-void drawline(void){    // function definition.
-    int i;
-    for(i=1; i<=80; i++){
-        printf("--");
-    }
-}
+// int main(){    
+//     drawline();      // function call.
+// }
+// void drawline(void){    // function definition.
+//     int i;
+//     for(i=1; i<=80; i++){
+//         printf("--");
+//     }
+// }
 
 
 int sum(int x, int y);  // function declaration.
