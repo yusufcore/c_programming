@@ -6,7 +6,7 @@ int main(){
     double n,s;
     printf("Enter a number: ");
     scanf("%lf", &n);
-    s = sqrt(n);
+    s = sqrt(n);  // library function.
     printf("The Square root of %.2lf is: %.2lf\n", n, s);
 }
 // Compile using -->  gcc func1.c -o main -lm.
