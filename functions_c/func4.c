@@ -9,7 +9,7 @@
     printf("Maximum of %d and %d is: %d\n", a,b, max(a,b));  // function calling.
     return 0;
  }
- int max(int x, int y){  // function definition.
+ int max(int x, int y){  // function definition.fucn
     if(x>y) 
        return x;
     else 
