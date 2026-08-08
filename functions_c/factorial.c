@@ -21,3 +21,4 @@ long int factorial(int n){   // function definition.
     }
     return fact;
 }
+// Note -> A Function can return only one value.
