@@ -9,8 +9,9 @@ int main(void){
     printf("Value of p2 = Memory address of b = %p\n", p2);
     printf("Address of p1 = %p\n", &p1);
     printf("Address of p2 = %p\n", &p2);
-    printf("value of a = %d %d %d\n", a, *p1, *(&a));
-    printf("value of a = %.1f %.1f %.1f\n", b, *p2, *(&b));
+    printf("value of a = %d %d %d\n", a, *p1, *(&a));  // dereferencing
+    printf("value of b = %.1f %.1f %.1f\n", b, *p2, *(&b));  // dereferencing
     return 0;
-
+ 
+    /*Note --> for dereferencing, * is needed. Dereferencing gets you the value of at that address, which is stored in pointer.*/
 }
