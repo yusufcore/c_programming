@@ -5,6 +5,7 @@ void printArray(int *a, int len);
 int main(){
     int arr[] = {1,9,2,7,6,4};
     int length = sizeof(arr)/sizeof(arr[0]);
+    printf("%d\t", length);
     printf("Array before sorting \n");
     printArray(arr, length);
     bubble(arr, length);
@@ -21,7 +22,7 @@ void bubble(int *a, int len){
 
         for(j=1; j<=len-i; j++){
 
-            if(a[j] > a[j-1]){
+            if(a[j] < a[j-1]){
 
                 flag = 1;
                 temp = a[j];
