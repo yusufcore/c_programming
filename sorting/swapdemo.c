@@ -12,9 +12,6 @@
 //     return 0;
 // }
 
-
-
-
 void swap(int* , int*);
 int main(){
     int x=10, y=20, temp;
