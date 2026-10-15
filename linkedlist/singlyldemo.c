@@ -75,6 +75,17 @@ void deletenode(int pos){
     free(p);
 }
 }
+
+int count(){
+    struct Node* p=head;
+    int count = 1;
+    while(p->next!=NULL){
+        p=p->next;
+        count++;
+    }
+    return count;
+}
+
 int main(){
     int option;
     int num;
@@ -84,6 +95,7 @@ int main(){
         printf("2) To traverse linked list\n");
         printf("3) To insert a new node\n");
         printf("4) To delete a node\n");
+        printf("5) Count the number of nodes in the list\n");
         printf("10) Exit\n");
         scanf("%d", &option);
         switch(option){
@@ -107,6 +119,10 @@ int main(){
                    scanf("%d", &pos);
                    deletenode(pos);
                    break;
+            case 5:
+                  int len = count();
+                  printf("The number of nodes in the current list is: %d\n", len);
+                  break;
             case 10:
                     exit(0);
             default:
